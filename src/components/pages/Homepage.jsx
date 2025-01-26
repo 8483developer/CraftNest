@@ -15,7 +15,7 @@ const Homepage = () => {
           {/* Item 1 */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="src/assets/images/crousal/DALL·E 2024-12-13 08.29.11 - A modern homepage design for a furniture website named 'CraftNest.' The homepage features a visually stunning banner carousel with high-quality images.webp"
+              src="/assets/images/crousal/DALL·E 2024-12-13 08.29.11 - A modern homepage design for a furniture website named 'CraftNest.' The homepage features a visually stunning banner carousel with high-quality images.webp"
               className="block w-full h-full object-cover"
               alt="Banner 1"
             />
@@ -23,7 +23,7 @@ const Homepage = () => {
           {/* Item 2 */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="src/assets/images/crousal/Gemini_Generated_Image_5mjb3k5mjb3k5mjb.jpg"
+              src="/assets/images/crousal/Gemini_Generated_Image_5mjb3k5mjb3k5mjb.jpg"
               className="block w-full h-full object-cover"
               alt="Banner 2"
             />
@@ -31,7 +31,7 @@ const Homepage = () => {
           {/* Item 3 */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="src/assets/images/crousal/Gemini_Generated_Image_lkywumlkywumlkyw.jpg"
+              src="/assets/images/crousal/Gemini_Generated_Image_lkywumlkywumlkyw.jpg"
               className="block w-full h-full object-cover"
               alt="Banner 3"
             />
@@ -39,7 +39,7 @@ const Homepage = () => {
           {/* Item 4 */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="src/assets/images/crousal/Gemini_Generated_Image_qyw96qyw96qyw96q.jpg"
+              src="/assets/images/crousal/Gemini_Generated_Image_qyw96qyw96qyw96q.jpg"
               className="block w-full h-full object-cover"
               alt="Banner 4"
             />
@@ -47,7 +47,7 @@ const Homepage = () => {
           {/* Item 5 */}
           <div className="hidden duration-700 ease-in-out" data-carousel-item>
             <img
-              src="src/assets/images/crousal/Gemini_Generated_Image_sgfspgsgfspgsgfs.jpg"
+              src="/assets/images/crousal/Gemini_Generated_Image_sgfspgsgfspgsgfs.jpg"
               className="block w-full h-full object-cover"
               alt="Banner 5"
             />
@@ -132,7 +132,7 @@ const Homepage = () => {
         <div className="category-grid grid grid-cols-1 md:grid-cols-3 gap-6 p-10">
           <div className="category-item relative">
             <img
-              src="src/assets/images/DALL·E 2024-12-11 11.05.44 - A stylish and cozy living room setup featuring modern furniture. The room includes a sleek, contemporary sofa set in neutral tones, a wooden coffee ta.webp"
+              src="/assets/images/DALL·E 2024-12-11 11.05.44 - A stylish and cozy living room setup featuring modern furniture. The room includes a sleek, contemporary sofa set in neutral tones, a wooden coffee ta.webp"
               alt="Living Room"
               className="w-full h-64 object-cover rounded-3xl"
             />
@@ -142,7 +142,7 @@ const Homepage = () => {
           </div>
           <div className="category-item relative">
             <img
-              src="src/assets/images/Gemini_Generated_Image_9m58ld9m58ld9m58.jpg"
+              src="/assets/images/Gemini_Generated_Image_9m58ld9m58ld9m58.jpg"
               alt="Bedroom"
               className="w-full h-64 object-cover rounded-3xl"
             />
@@ -152,7 +152,7 @@ const Homepage = () => {
           </div>
           <div className="category-item relative">
             <img
-              src="src/assets/images/Gemini_Generated_Image_sdtep2sdtep2sdte.jpg"
+              src="/assets/images/Gemini_Generated_Image_sdtep2sdtep2sdte.jpg"
               alt="Dining Room"
               className="w-full h-64 object-cover rounded-3xl"
             />
@@ -168,19 +168,19 @@ const Homepage = () => {
         <h2 className="text-4xl font-bold mb-5 text-center"><i>Top-Selling Products</i></h2>
         <div className="product-grid grid grid-cols-1 md:grid-cols-3 gap-6 p-10 py-10">
           <ProductCard
-            imageUrl="src/assets/images/DALL·E 2024-12-11 11.10.02 - A modern sofa set designed for a stylish living room. The setup includes a sleek, L-shaped sectional sofa in a neutral beige or gray tone with plush c.webp"
+            imageUrl="/assets/images/DALL·E 2024-12-11 11.10.02 - A modern sofa set designed for a stylish living room. The setup includes a sleek, L-shaped sectional sofa in a neutral beige or gray tone with plush c.webp"
             title="Modern Sofa Set"
             price=" ₹999"
             description="A sleek and stylish sofa for your living room which makes it attractive"
           />
           <ProductCard
-            imageUrl="src/assets/images/DALL·E 2024-12-11 11.12.34 - An elegant dining table setup designed for a luxurious dining room. The table is made of polished dark wood with a glossy finish, complemented by a se.webp"
+            imageUrl="/assets/images/DALL·E 2024-12-11 11.12.34 - An elegant dining table setup designed for a luxurious dining room. The table is made of polished dark wood with a glossy finish, complemented by a se.webp"
             title="Elegant Dining Table"
             price=" ₹599"
             description="A beautiful table to bring your dining room together"
           />
           <ProductCard
-            imageUrl="src/assets/images/Gemini_Generated_Image_5kpf105kpf105kpf.jpg"
+            imageUrl="/assets/images/Gemini_Generated_Image_5kpf105kpf105kpf.jpg"
             title="Stylish Office Chair"
             price=" ₹199"
             description="Comfortable and ergonomic chair for your workspace"
@@ -199,7 +199,7 @@ const Homepage = () => {
       <h2 className="text-4xl font-bold mb-5 text-center"><i>Trending Collection</i></h2>
       <div className="trending-collection">
         <img
-          src="src/assets/images/Gemini_Generated_Image_j785lyj785lyj785.jpg"
+          src="/assets/images/Gemini_Generated_Image_j785lyj785lyj785.jpg"
           alt="Trending"
           className="rounded-full"
         />

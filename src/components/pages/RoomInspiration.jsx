@@ -4,12 +4,12 @@ const RoomInspiration = () => {
   const [filter, setFilter] = useState("All");
 
   const roomData = [
-    { id: 1, type: "Living Room", img: "/src/assets/images/DALL·E 2024-12-11 11.05.44 - A stylish and cozy living room setup featuring modern furniture. The room includes a sleek, contemporary sofa set in neutral tones, a wooden coffee ta.webp" },
-    { id: 2, type: "Bedroom", img: "src/assets/images/Gemini_Generated_Image_9m58ld9m58ld9m58.jpg" },
-    { id: 3, type: "Dining Room", img: "src/assets/images/Gemini_Generated_Image_sdtep2sdtep2sdte.jpg" },
-    { id: 4, type: "Living Room", img: "/src/assets/images/Gemini_Generated_Image_3gzmfa3gzmfa3gzm.jpg" },
-    { id: 5, type: "Bedroom", img: "/src/assets/images/Gemini_Generated_Image_gy361tgy361tgy36.jpg" },
-    { id: 6, type: "Office", img: "/src/assets/images/Gemini_Generated_Image_rdql7trdql7trdql.jpg" },
+    { id: 1, type: "Living Room", img: "/assets/images/DALL·E 2024-12-11 11.05.44 - A stylish and cozy living room setup featuring modern furniture. The room includes a sleek, contemporary sofa set in neutral tones, a wooden coffee ta.webp" },
+    { id: 2, type: "Bedroom", img: "/assets/images/Gemini_Generated_Image_9m58ld9m58ld9m58.jpg" },
+    { id: 3, type: "Dining Room", img: "/assets/images/Gemini_Generated_Image_sdtep2sdtep2sdte.jpg" },
+    { id: 4, type: "Living Room", img: "/assets/images/Gemini_Generated_Image_3gzmfa3gzmfa3gzm.jpg" },
+    { id: 5, type: "Bedroom", img: "/assets/images/Gemini_Generated_Image_gy361tgy361tgy36.jpg" },
+    { id: 6, type: "Office", img: "/assets/images/Gemini_Generated_Image_rdql7trdql7trdql.jpg" },
   ];
 
   const filteredRooms =

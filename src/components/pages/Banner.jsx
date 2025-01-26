@@ -16,7 +16,7 @@ const Banner = () => {
       </div>
       <div className="max-w-xs">
         <img 
-          src="\src\assets\images\Gemini_Generated_Image_1m5fgn1m5fgn1m5f.jpg" 
+          src="/assets/images/Gemini_Generated_Image_1m5fgn1m5fgn1m5f.jpg" 
           alt="CraftNest Banner" 
           className="w-full h-auto rounded-xl"
         />
