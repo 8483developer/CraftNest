@@ -18,6 +18,7 @@ const Homepage = () => {
               src="/assets/images/crousal/DALL·E 2024-12-13 08.29.11 - A modern homepage design for a furniture website named 'CraftNest.' The homepage features a visually stunning banner carousel with high-quality images.webp"
               className="block w-full h-full object-cover"
               alt="Banner 1"
+              loading="eager"
             />
           </div>
           {/* Item 2 */}
