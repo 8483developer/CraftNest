@@ -4,9 +4,7 @@ import ProductCard from './ProductCard';
 import 'flowbite';
 
 const Homepage = () => {
-document.addEventListener('DOMContentLoaded', () => {
-  console.log('Flowbite initialized!');
-});
+
 
  
   return (
