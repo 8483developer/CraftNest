@@ -14,7 +14,7 @@ const Homepage = () => {
         {/* Carousel Wrapper */}
         <div className="relative h-[250px] sm:h-[300px] md:h-[400px] lg:h-[500px] overflow-hidden">
           {/* Item 1 */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div className=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="/assets/images/crousal/image1.jpg"
               className="block w-full h-full object-cover"
@@ -23,7 +23,7 @@ const Homepage = () => {
             />
           </div>
           {/* Item 2 */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div className=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="/assets/images/crousal/Gemini_Generated_Image_5mjb3k5mjb3k5mjb.jpg"
               className="block w-full h-full object-cover"
@@ -31,7 +31,7 @@ const Homepage = () => {
             />
           </div>
           {/* Item 3 */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div className=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="/assets/images/crousal/Gemini_Generated_Image_lkywumlkywumlkyw.jpg"
               className="block w-full h-full object-cover"
@@ -39,7 +39,7 @@ const Homepage = () => {
             />
           </div>
           {/* Item 4 */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div className=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="/assets/images/crousal/Gemini_Generated_Image_qyw96qyw96qyw96q.jpg"
               className="block w-full h-full object-cover"
@@ -47,7 +47,7 @@ const Homepage = () => {
             />
           </div>
           {/* Item 5 */}
-          <div className="hidden duration-700 ease-in-out" data-carousel-item>
+          <div className=" duration-700 ease-in-out" data-carousel-item>
             <img
               src="/assets/images/crousal/Gemini_Generated_Image_sgfspgsgfspgsgfs.jpg"
               className="block w-full h-full object-cover"
